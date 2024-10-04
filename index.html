@@ -1,0 +1,58 @@
+<html lang='zh-Hant-TW'>
+	<head>
+			<meta charset="utf-8" />
+			<title>品品的 Profile</title>
+			<meta name="Ganoliz a.k.a Casserly" content="Ganoliz's profile" />
+			<meta name="description" content="This is a profile of Ganoliz(Casserly) at ganoliz@github.io." />
+			<!--- 
+				<link rel="stylesheet" href="my-css-file.css"> /> 
+				<script src="my-js-file.js" defer></script> #defer 告訴瀏覽器加載完 HTML 再加載 JavaScript 
+				<script type='module' src='my-js-file.js'></script>
+			--->
+	</head>
+	
+	<body>
+			<h1>I am the title of the story.</h1>
+			<p href="https://www.mozilla.org/">My cat is very grumpy</p>
+			<img
+			  src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" /> 
+
+			<input id='reset' type="button" value="Reset" disabled="disabled"/>
+			<meta charset="ISO-8859-1" />
+			<p>Japanese example: ご飯が熱い。</p>
+			<span style="font-size: 32px; margin: 21px 0; display: block;"
+			  >Is this a top level heading?</span
+			>
+			<ul>
+			  milk eggs bread hummus
+			</ul>
+			<ul>
+			  <li>milk</li>
+			  <li>eggs</li>
+			  <li>bread</li>
+			  <li>hummus</li>
+			</ul>
+
+			<video src="rabbit320.webm" controls>
+			  <p>
+				你的浏览器不支持 HTML 视频。可点击<a href="rabbit320.mp4">此链接</a>观看。
+			  </p>
+			</video>
+
+			<a href="https://developer.mozilla.org/zh-CN/">
+			  <h1>MDN Web 文档</h1>
+			</a>
+			<button type="button">Player 1: Chris</button>
+		<script>
+			const button = document.querySelector("button");
+
+			button.addEventListener("click", updateName);
+
+			function updateName() {
+			const name = prompt("输入一个新的名字：");
+			button.textContent = `玩家 1：${name}`;
+			}
+			
+		</script>
+	</body>
+</html>
